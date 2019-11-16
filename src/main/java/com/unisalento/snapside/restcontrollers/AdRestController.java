@@ -14,6 +14,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -53,6 +57,13 @@ public class AdRestController {
         AdEntity ad = new AdEntity();
         ad = adService.getById(id);
         adDTO=AdAdapter.AdEntityToAdDTO(ad);
+        /*try (FileOutputStream stream = new FileOutputStream("G:\\Magis\\secondoanno2\\SE_SnapDepot\\chocoloco.jpg")) {
+            stream.write(adDTO.getFiles());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
         return adDTO;
     }
 

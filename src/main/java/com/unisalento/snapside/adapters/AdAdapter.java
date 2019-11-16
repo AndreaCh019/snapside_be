@@ -16,6 +16,7 @@ public class AdAdapter {
         ad.setBeginDate(adDTO.getBeginDate());
         ad.setEndDate(adDTO.getEndDate());
         ad.setAdType(adDTO.getAdType());
+        ad.setFiles(adDTO.getFiles());
         return ad;
     }
 
@@ -32,6 +33,7 @@ public class AdAdapter {
         adDTO.setBeginDate(ad.getBeginDate());
         adDTO.setEndDate(ad.getEndDate());
         adDTO.setAdType(ad.getAdType());
+        adDTO.setFiles(ad.getFiles());
         return adDTO;
     }
 

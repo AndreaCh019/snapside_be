@@ -57,7 +57,7 @@ public class AdRestController {
         AdEntity ad = new AdEntity();
         ad = adService.getById(id);
         adDTO=AdAdapter.AdEntityToAdDTO(ad);
-        /*try (FileOutputStream stream = new FileOutputStream("G:\\Magis\\secondoanno2\\SE_SnapDepot\\chocoloco.jpg")) {
+/*        try (FileOutputStream stream = new FileOutputStream("G:\\Magis\\secondoanno2\\SE_SnapDepot\\ad_"+adDTO.getIdAd()+"_chocoloco.jpg")) {
             stream.write(adDTO.getFiles());
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Hibernate 5.4.5-5.4.5" type="hibernate">
+    <properties version="5.4.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/istack-commons-runtime-3.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/classmate-1.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/FastInfoset-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/dom4j-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/jandex-2.0.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/jaxb-api-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/javax.persistence-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/jboss-logging-3.3.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/javassist-3.24.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/txw2-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/stax-ex-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/byte-buddy-1.9.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/jaxb-runtime-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hibernate_utility/lib/hibernate-core-5.4.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

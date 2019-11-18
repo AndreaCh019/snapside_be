@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hibernate_utility/hibernate_utility.iml" filepath="$PROJECT_DIR$/hibernate_utility/hibernate_utility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snapside.iml" filepath="$PROJECT_DIR$/.idea/modules/snapside.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snapside.main.iml" filepath="$PROJECT_DIR$/.idea/modules/snapside.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snapside.test.iml" filepath="$PROJECT_DIR$/.idea/modules/snapside.test.iml" />
+    </modules>
+  </component>
+</project>

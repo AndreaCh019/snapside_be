@@ -15,7 +15,18 @@ public class AdDTO {
     private Timestamp endDate;
     private String adType;
     private int user_id_seller;
+    private byte[] files;
+
+    public byte[] getFiles() {
+        return files;
+    }
+
+    public void setFiles(byte[] files) {
+        this.files = files;
+    }
+
     private int item_id_item;
+
 
     public int getIdAd() {
         return idAd;
